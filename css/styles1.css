@@ -1,0 +1,203 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat";
+}
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: azure;
+  padding-bottom: 8%;
+}
+
+#title h1 {
+  font-size: 3.5rem;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+#title .row-title {
+  position: relative;
+}
+
+#title .container-fluid,
+#features .container-fluid {
+  padding: 2% 15%;
+}
+
+/* Navigation Bar */
+#title .navbar {
+  padding-bottom: 4.5rem;
+}
+
+#title .navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#title .nav-item {
+  padding: 0 15px;
+}
+
+#title .nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+/* Title-image */
+#title .title-image {
+  width: 30%;
+  transform: rotate(25deg);
+  right: 10%;
+  position: absolute;
+}
+
+/* Image fine-tuning for tablet and mobile view */
+@media (max-width: 995px) {
+  #title .row-title {
+    position: static;
+    text-align: center;
+  }
+
+  #title .title-image {
+    position: static;
+    margin-top: 10%;
+    width: 40%;
+    transform: rotate(0deg);
+  }
+}
+
+/* Feature Section*/
+#features {
+  padding: 5% 0 0 0;
+  background-color: azure;
+  position: relative;
+  z-index: 1;
+}
+#features .col-lg-4 {
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+#features .feat-item {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#features .feat-item:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: azure;
+}
+
+#testimonials h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#testimonials .tes-img {
+  border-radius: 100%;
+  margin-bottom: 14%;
+  width: 20%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  padding: 0 15%;
+}
+
+#press .press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#pricing .pricing-title {
+  margin-bottom: 5%;
+}
+
+#pricing .mastiff-img {
+  width: 256px;
+  height: 164px;
+}
+
+#pricing .labrador-card {
+  margin: 0 4%;
+}
+
+#pricing .p-but {
+  background-color: #ff4c68;
+  color: azure;
+}
+
+#pricing .p-but:hover {
+  background-color: #e7425a;
+  color: azure;
+}
+
+/* Call to Action Section */
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: azure;
+  margin-bottom: 5%;
+}
+
+/* Footer Section */
+#footer {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+#footer .f-logo {
+  color: rgb(28, 26, 26);
+}
